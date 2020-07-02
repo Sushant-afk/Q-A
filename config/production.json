@@ -1,0 +1,4 @@
+{
+    "jwtSecret":"mySecretKey",
+    "MONGO_URI": "mongodb+srv://anim90416:anim90416@x-cluster-9f4hp.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}

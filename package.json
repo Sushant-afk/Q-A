@@ -1,0 +1,28 @@
+{
+  "name": "article-web",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.1"
+   },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "index": "nodemon index",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run index\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "sushant yadav",
+  "license": "ISC",
+  "description": "A website for creating and reading cool articles",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^4.0.1",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.13"
+  }
+}
