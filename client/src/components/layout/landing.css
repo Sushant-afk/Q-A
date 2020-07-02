@@ -1,0 +1,15 @@
+.landing 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+p { 
+    font-family: "Open Sans", sans-serif;  
+    text-transform: uppercase;
+}
+
+.linkx {text-transform: uppercase; color: rgb(73, 131, 207); }

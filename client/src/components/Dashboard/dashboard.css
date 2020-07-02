@@ -1,0 +1,90 @@
+.home{
+    display: flex;
+    min-height: 100vh;
+    padding: 0px 0px;
+    justify-content: center;
+}
+.profile {
+    background-color: white;
+    width: 80%;
+    padding-top: 30px; padding-left: 20px; padding-right: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(71, 71, 71, 0.19) 0px 10px 10px, rgba(100, 99, 99, 0.23) 0px 3px 3px;;
+}
+
+
+.welcome {
+    color:#664986;
+}
+hr{
+    border: 2px solid #664986;
+}
+.greeting {
+    font-size: 25px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pro {
+    font-size: 14px;color: black;
+    font-family:  'Raleway', sans-serif;
+    display: inline;
+}
+.profile-data-div, .activity-div{ margin-bottom: 10px;display: flex; align-items: center;}
+.xx { margin-right: 10px;}
+
+.msg-2{ color: gray; font-family: 'Raleway', sans-serif;}
+
+.update-btn {
+    padding: 5px 3px;
+    background-color:  #664986; color: white;
+    border: 1px solid white; border-radius: 3px;
+    cursor: pointer;margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.update-btn:hover {color: black; background-color: white;  border-color: #412f55;}
+
+.auth-btn-modal {
+    padding: 10px;
+    margin: 15px 0px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #664986;
+    color: white;
+    border: 1px solid #412f55;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.nots { font-size: 18px; letter-spacing: 1px; text-transform: none;}
+
+.notifications-div
+{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    border-radius: 4px;
+    /* box-shadow: rgba(121, 120, 120, 0.19) 0px 10px 20px, rgba(158, 158, 158, 0.23) 0px 6px 6px, rgba(158, 158, 158, 0.18) 0px -5px 10px; */
+    padding: 20px 20px;
+    margin-bottom: 25px;
+    border: 2px solid #412f55;
+}
+.notifications{padding: 3px 3px; }
+.notifications:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+@media only screen and (max-width: 500px) {
+
+    .profile {width: 100%;}
+    .greeting {font-size: 20px;}
+    .nots{ font-size: 15px; }
+}
+@media only screen and (max-width: 400px)
+{
+    .greeting {
+        font-size: 18px;
+    } 
+    .nots{ font-size: 16px; }
+}
